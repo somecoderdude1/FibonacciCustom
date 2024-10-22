@@ -12,7 +12,7 @@ for i in range(length-2):
     fibonacci_buffer.append(initial+second)
     initial=fibonacci_buffer[-2]
     second=fibonacci_buffer[-1]
-#stores those values into the variable fibonacci with more readable output
+#stores those values into the variable fibonacci with more readable outputs
 for num in fibonacci_buffer:
     fibonacci += str(num)+","
     
